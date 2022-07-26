@@ -9,6 +9,7 @@ pull request template 적용 확인을 위한 test repo
   vi .github/pull_request_template.md
   ```
 - 생성한 md 파일에 template 내용 작성
+- [template 파일 바로가기](https://github.com/sujoungyoon/pr-template-test/blob/master/.github/pull_request_template.md)
 
 ## PRLint
 > 참고: https://github.com/apps/prlint-reloaded
@@ -20,21 +21,6 @@ pull request template 적용 확인을 위한 test repo
   - `티켓번호 내용`
   - ex) Jira티켓이 DISCO-2309 인 경우 -> `DISCO-2309 제목내용`
 - PRLint
-  - rule: `.github/prlint.json`
-  ```
-  {
-    "title": [
-      {
-        "pattern": "^[A-Z]{2,5}-\\d+\\s\\w",
-        "message": "Your title needs to be prefixed with a jira ticket name"
-      }
-    ],
-    "head.ref": [
-      {
-        "pattern": "^[a-z]{2,5}-\\d+(-[0-9a-z]+)+$",
-        "message": "Your branch name is invalid: Need lowercase with a jira ticket name"
-      }
-    ]
-  }
-  ```
+  - rule: [`.github/prlint.json` 규칙 파일 바로가기](https://github.com/sujoungyoon/pr-template-test/blob/master/.github/prlint.json)
+
   
