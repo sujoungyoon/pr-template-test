@@ -16,6 +16,9 @@ pull request template 적용 확인을 위한 test repo
   - Jira ticket 이름의 소문자를 접두어로 함
   - `접두어-간단한 타이틀`형식으로 작성
   - ex) Jira티켓이 DISCO-2309 인 경우 -> `disco-2309-blahblah`
+- PR 제목 생성 룰
+  - `티켓번호 내용`
+  - ex) Jira티켓이 DISCO-2309 인 경우 -> `DISCO-2309 제목내용`
 - PRLint
   - rule: `.github/prlint.json`
   ```
