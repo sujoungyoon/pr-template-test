@@ -11,7 +11,7 @@ pull request template 적용 확인을 위한 test repo
 - 생성한 md 파일에 template 내용 작성
 
 ## PRLint
-> 참고: https://github.com/apps/prlint 
+> 참고: https://github.com/apps/prlint-reloaded
 - branch 네이밍 룰
   - Jira ticket 이름의 소문자를 접두어로 함
   - `접두어-간단한 타이틀`형식으로 작성
