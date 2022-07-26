@@ -12,6 +12,7 @@ pull request template 적용 확인을 위한 test repo
 
 ## PRLint
 > 참고: https://github.com/apps/prlint 
+- PRLint 적용을 확인하기 위해 규칙에 맞지 않는 PR 생성해보기
 - branch 네이밍 룰
   - Jira ticket 이름의 소문자를 접두어로 함
   - `접두어-간단한 타이틀`형식으로 작성
@@ -34,4 +35,3 @@ pull request template 적용 확인을 위한 test repo
     ]
   }
   ```
-  
