@@ -6,7 +6,7 @@ base branch
 # test
 pull request template 적용 확인을 위한 test repo
 
-111` commit
+222` commit
 
 ## github pull request template 추가 방법
 > 참고: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository
