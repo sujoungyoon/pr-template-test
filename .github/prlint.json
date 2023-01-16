@@ -5,13 +5,6 @@
       "message": "Your title needs to be prefixed with env name with bracket[ex.(PROD) or (STG)] and a jira ticket name"
     }
   ],
-  "body": [
-    {
-      "pattern": "[A-Z]{2,5}-\\d+",
-      "flags": ["i"],
-      "message": "You need a JIRA ticket in your description"
-    }
-  ],
   "head.ref": [
     {
       "pattern": "^[a-z]{2,5}-\\d+(-[0-9a-z]+)+$",
