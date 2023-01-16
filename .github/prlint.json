@@ -1,8 +1,8 @@
 {
   "title": [
     {
-      "pattern": "^(\\(PROD\\)||\\(STG\\))\\s[A-Z]{2,5}-\\d+\\s\\w",
-      "message": "Your title needs to be prefixed with a jira ticket name"
+      "pattern": "^(\\(PROD\\)||\\(STG\\))(\\s)[A-Z]{2,5}-\\d+\\s\\w",
+      "message": "Your title needs to be prefixed with env name with bracket[ex.(PROD) or (STG)] and a jira ticket name"
     }
   ],
   "head.ref": [
