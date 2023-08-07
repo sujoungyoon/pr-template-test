@@ -14,7 +14,7 @@
   ],
   "head.ref": [
     {
-      "pattern": "^[a-z]{2,5}-\\d+(-[0-9a-z]+)+$",
+      "pattern": "((conflict)/(staging||master)/)[a-z]{2,5}-\\d+(-[0-9a-z]+)+$",
       "message": "Your branch name is invalid: Need lowercase with a jira ticket name"
     }
   ]
